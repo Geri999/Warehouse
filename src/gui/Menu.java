@@ -6,6 +6,7 @@ import tools.Exit;
 import tools.GuiCSSTools;
 import tools.IO;
 import tools.UserInput;
+import users.Logout;
 import users.UserRepository;
 
 public class Menu {
@@ -50,8 +51,7 @@ public class Menu {
                 serviceMenuIO();
                 break;
             case 0:
-                IO.ioSave();
-                Exit.exit();
+                Logout.logout();
                 break;
         }
     }
