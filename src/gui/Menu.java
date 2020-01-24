@@ -2,7 +2,6 @@ package gui;
 
 import model.CategoryTools;
 import model.ProductTools;
-import tools.Exit;
 import tools.GuiCSSTools;
 import tools.IO;
 import tools.UserInput;
